@@ -1,0 +1,65 @@
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <>
+      <div className='foot-main'>
+        <div className='foot1'>
+          <ul>
+            <li><h2>Address</h2></li>
+            <li>32 B, Y Block</li>
+            <li>People's Colony, Gujranwala</li>
+            <li>0314-7172656</li>
+            <li>ppss@gmail.com</li>
+            <li>333-666-999</li>
+          </ul>
+        </div>
+        <div className='foot2'>
+
+          <ul>
+            <li><h2>About Us</h2></li>
+            <li>Leadership</li>
+            <li>Our Policies</li>
+            <li>Community</li>
+            <li>Handbook</li>
+
+          </ul>
+        </div>
+        <div className='foot3'>
+
+          <ul>
+            <li><h2>Our Work</h2></li>
+            <li>Education</li>
+            <li>Hard Working</li>
+            <li>Committee</li>
+            <li>Athletics</li>
+          </ul>
+        </div>
+        <div className='foot4'>
+
+          <ul>
+            <li><h2>Academics</h2></li>
+            <li>Elementary School</li>
+            <li>Middle/High School</li>
+            <li>Portals</li>
+            <li>Enrollment</li>
+          </ul>
+        </div>
+        <div className='foot5'>
+          <h2>Social Media</h2>
+          <ul>
+            <li><a href=""></a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+          </ul>
+        </div>
+      </div>
+      <div className="footer-center">
+        Copyright &#169; mafia.com | All rights reserved
+      </div>
+    </>
+  )
+}
+
+export default Footer
